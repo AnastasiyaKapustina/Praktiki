@@ -1,0 +1,86 @@
+.container {
+  margin: 55px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  align-self: center;
+  position: absolute;
+  width: 1375px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news {
+  font-family: Form;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.allnews {
+  font-family: PragmaticaC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  border-bottom: 1px solid black;
+}
+
+.spisok {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spisok_elements {
+  max-width: 300px;
+  height: 372px;
+  font-family: PragmaticaC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  border-left: 1px solid #899195;
+  padding-left: 40px;
+}
+
+.spisok_elementsDOP {
+  max-width: 275px;
+  height: 400px;
+  font-family: PragmaticaC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.spisok_elements2 {
+  bottom: 0px;
+  font-family: PragmaticaC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.spisok_elements3 {
+  bottom: 0px;
+}
+
+.spisok2 {
+  height: 300px;
+}

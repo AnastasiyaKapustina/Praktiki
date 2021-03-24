@@ -1,0 +1,267 @@
+.body {
+  margin: 0px;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  width: 1360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+}
+
+.header_logo {
+  position: absolute;
+  left: 3.5%;
+  right: 83.53%;
+  top: 37.84%;
+  bottom: 33.78%;
+}
+
+.element {
+  position: static;
+  left: 0%;
+  right: 84.54%;
+  top: 0%;
+  bottom: 0%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #979797;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  padding-left: 7%;
+  margin: auto;
+}
+
+.container1 {
+  margin: 0 60px;
+  max-width: 1360px;
+  margin-top: 114px;
+}
+
+.h1 {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 64px;
+  color: #333f48;
+}
+
+.container2 {
+  margin: 0 60px;
+  max-width: 1360px;
+}
+
+.pictures {
+  position: relative;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.picture {
+  width: 390px;
+  height: 260px;
+  transition: all 0.4s ease;
+  border-radius: 18px;
+}
+
+.picture:hover {
+  box-shadow: 5px 3px 4px 2px green;
+}
+
+.fade {
+  opacity: 1;
+}
+.fade:hover {
+  opacity: 0.8;
+}
+
+.picturedtext {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #333f48;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.picturedtext2 {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #21a038;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.container3 {
+  width: 1016px;
+  margin: 0 60px;
+}
+
+.pictureDOP {
+  margin-right: 170px;
+  width: 390px;
+  height: 260px;
+  transition: all 0.4s ease;
+  border-radius: 18px;
+}
+
+.pictureDOP:hover {
+  box-shadow: 5px 3px 4px 2px green;
+}
+
+.sectionDEL {
+  padding-top: 60px;
+}
+
+.last {
+  margin-top: 119px;
+  padding-bottom: 30px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: #f3f4f5;
+}
+
+.container4 {
+  padding-right: 30px;
+  margin: 0 30px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.spiski {
+  width: 312px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.spisok_elements {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333f48;
+  opacity: 0.5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 0px;
+}
+
+.er1 {
+  padding-top: 40%;
+}
+
+.bt {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height, or 129% */
+
+  /* Dark blue */
+
+  color: #333f48;
+  opacity: 0.5;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.spisok_elements2 {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  /* Dark blue */
+
+  color: #333f48;
+  opacity: 0.5;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 4px 0px;
+}
+
+.B1 {
+  margin: 24px 0px;
+}
+.B2 {
+  margin-top: 41px;
+}
+
+.spisok_elements3 {
+  font-family: SB Sans Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333f48;
+  opacity: 0.5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-right: 16px;
+}
+
+.spiski2 {
+  padding-top: 15%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
